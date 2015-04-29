@@ -1,0 +1,2 @@
+setInitialPos();
+displaythumbs();

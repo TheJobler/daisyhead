@@ -1,0 +1,476 @@
+
+/*Universal formatting-------------------------------------------*/
+html{
+	padding-top:0px;
+	/*margin-left:25%;*/
+	/*margin-right:25%;*/
+	height:100%;
+	background:
+		/*#0A090D */
+		/*url(../resources-alt/bkg.jpg)*/
+		Black
+		/*no-repeat*/;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+body{
+	height:100%;
+}
+img{
+	border:none;
+}
+
+/*End Universal formatting---------------------------------------*/
+/*Container formatting-------------------------------------------*/
+
+#Container{
+	position:relative;
+	width:920px;
+	min-height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:rgba(0,0,0,1.0);
+
+}
+
+#LeftBorder{
+	position:absolute;
+	background: -webkit-gradient(linear, 0 0, 100% 100%, from(black), to(black), color-stop(50%, DarkOliveGreen));
+	width:1px;
+	height:600px;
+	top:100px
+}
+
+#RightBorder{
+	position:absolute;
+	background: -webkit-gradient(linear, 0 0, 100% 100%, from(black), to(black), color-stop(50%, DarkOliveGreen));
+	width:1px;
+	height:600px;
+	left:920px;
+	top:100px;
+}
+/*End Container formatting---------------------------------------*/
+/*Banner formatting----------------------------------------------*/
+
+#Banner{
+	z-index:500;
+	position:relative;
+	width:100%;
+	height:145px;
+	border-bottom:1px;
+}
+	#DaisyHead{
+		position:relative;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		
+	}
+/*End Banner formatting------------------------------------------*/
+/*NavBar formatting----------------------------------------------*/
+
+#NavBar{
+	position:absolute;
+	top: 750px;
+	width:100%;
+	height:60px;
+	background-color:NULL;
+}
+
+	#HOME{
+		/*margin-right:auto;*/
+		left:50px;
+		position:absolute;
+		width:80px;
+		height:60px;
+		/**/
+		background-image:url('../resources/petal-Home.png');
+		z-index:550;
+	}
+	#HOME:hover{
+		background-image:url('../resources/petal-HomeH.png');
+		z-index:3000;
+	}
+
+	#PORTFOLIO{
+		/*margin-right:auto;*/
+		left:150px;
+		position:absolute;
+		width:80px;
+		height:60px;
+		/**/
+		background-image:url('../resources/petal-Portfolio.png');
+		z-index:550;
+	}
+	#PORTFOLIO:hover{
+		background-image:url('../resources/petal-PortfolioH.png');
+		z-index:3000;
+	}
+	
+	#CONTACT{
+		/*margin-right:auto;*/
+		left:250px;
+		position:absolute;
+		width:80px;
+		height:60px;
+		/**/
+		background-image:url('../resources/petal-Contact.png');
+		z-index:550;
+	}
+	#CONTACT:hover{
+		background-image:url('../resources/petal-ContactH.png');
+		z-index:3000;
+	}
+	
+	#_VOID_{
+		/*margin-right:auto;*/
+		left:350px;
+		position:absolute;
+		width:80px;
+		height:60px;
+		/**/
+		background-image:url('../resources/petal-Void.png');
+		z-index:550;
+	}
+	#_VOID_:hover{
+		background-image:url('../resources/petal-VoidH.png');
+		z-index:3000;
+	}
+	
+/*End of NavBar formatting---------------------------------------*/
+/*Foolter formatting---------------------------------------------*/
+
+#Footer{
+	background-color:rgba(0,0,0,1.0);
+	width:920px;
+	height:75px;
+	height:auto;
+	position:absolute;
+	top:850px;
+	/*border-style:groove outset;*/
+	/*border-color:#white;*/
+}
+
+#Footer p{
+	font-family:helvetica;
+	text-align:center;
+	color:gray;
+}
+
+/*End of footer formatting---------------------------------------*/
+
+/*Start of include Formattings------------------------------------*/
+#pictures{
+	overflow:hidden;
+}
+	#section-1{
+		position:absolute;
+		height:160px;
+		width:106px;
+		top:3.75%;
+		left:6.25%;
+		overflow:hidden;
+		
+		
+	}
+	#section-2{
+		position:absolute;
+		height:106px;
+		width:160px;
+		left:20.75%;
+		top:27%;
+		overflow:hidden;
+		
+		
+	}
+	#section-3{
+		position:absolute;
+		height:160px;
+		width:106px;
+		top:15%;
+		left:42.5%;
+		overflow:hidden;
+		
+		
+	}
+	#section-4{
+		position:absolute;
+		height:106px;
+		width:160px;
+		top:0%;
+		left:57%;
+		overflow:hidden;
+		
+		
+	}
+	#section-5{
+		position:absolute;
+		height:160px;
+		width:106px;
+		top:8.75%;
+		left:78.75%;
+		overflow:hidden;
+		
+		
+	}
+	#section-6{
+		position:absolute;
+		height:106px;
+		width:160px;
+		top:40%;
+		left:-1%;
+		overflow:hidden;
+		
+		
+	}
+	#section-7{
+		position:absolute;
+		height:106px;
+		width:160px;
+		top:51.25%;
+		left:20.75%;
+		overflow:hidden;
+		
+		
+	}
+	#section-8{
+		position:absolute;
+		height:160px;
+		width:106px;
+		top:51.25%;
+		left:42.5%;
+		overflow:hidden;
+		
+		
+	}
+	#section-9{
+		position:absolute;
+		height:160px;
+		width:106px;
+		top:24.25%;
+		left:57%;
+		overflow:hidden;
+		
+		
+	}
+	#section-10{
+		position:absolute;
+		height:106px;
+		width:160px;
+		top:45%;
+		left:71.75%;
+		overflow:hidden;
+		
+		
+	}
+	#section-11{
+		position:absolute;
+		height:106px;
+		width:160px;
+		top:69.5%;
+		left:85%;
+		overflow:hidden;
+		
+		
+	}
+	#section-12{
+		position:absolute;
+		height:106px;
+		width:160px;
+		top:45%;
+		left:93.5%;
+		overflow:hidden;
+		
+		
+	}
+	
+.square{
+	width:40px;
+	height:40px;
+	position:absolute;
+}
+
+.square:hover{
+}
+	#s1{
+		left:0.5%;
+		top:30.5%;
+	}
+	#s2{
+		top:33%;
+		left:71.75%;
+		width:50px;
+		height:50px;
+	}
+	#s3{
+		top:17.5%;
+		left:20.75%;
+	}
+	#s4{
+		top:60.5%;
+		left:57%;
+	}
+	#s5{
+		top:35.5%;
+		left:93.5%;
+	}
+	#s6{
+		bottom:67%;
+		left:71.7%;
+		width:50px;
+		height:38px;
+	}
+/*End Picture Formatting------------------------------------*/
+/*Picture pile Formatting----------------------------------------*/
+
+.PicturePile{
+	position:relative;
+	padding:25px;
+	left:-50px;
+	margin-top:25px;
+	margin-right:auto;
+	margin-left:auto;
+	height:400px;
+	width:700px;
+}
+
+	.PicturePile img#pic1{
+		position:relative;
+		padding:2px;
+		z-index:0;
+		
+	}
+	.PicturePile img#pic1:hover{
+	}
+	
+	.PicturePile img#pic2{
+		position:relative;
+		padding:2px;
+		z-index:6;
+	}
+	.PicturePile img#pic2:hover{
+	}
+	
+	.PicturePile img#pic3{
+		position:relative;
+		padding:2px;
+		z-index:3;
+	}
+	.PicturePile img#pic3:hover{
+	}
+	
+	.PicturePile img#pic4{
+		position:relative;
+		padding:2px;
+		z-index:9;
+	}
+	.PicturePile img#pic4:hover{
+	}
+	
+	.PicturePile img#pic5{
+		position:relative;
+		padding:2px;
+		z-index:7;
+	}
+	.PicturePile img#pic5:hover{
+	}
+	
+	.PicturePile img#pic6{
+		position:relative;
+		padding:2px;
+		z-index:4;
+	}
+	.PicturePile img#pic6:hover{
+	}
+
+	.PicturePile img#pic7{
+		position:relative;
+		padding:2px;
+		z-index:2;
+	}
+	.PicturePile img#pic7:hover{
+	}
+	
+	.PicturePile img#pic8{
+		position:relative;
+		padding:2px;
+		z-index:1;
+	}
+	.PicturePile img#pic8:hover{
+	}
+	
+	.PicturePile img#pic9{
+		position:relative;
+		padding:2px;
+		z-index:12;
+	}
+	.PicturePile img#pic9:hover{
+	}
+	
+	.PicturePile img#pic10{
+		position:relative;
+		padding:2px;
+		z-index:8;
+	}
+	.PicturePile img#pic10:hover{
+	}
+	
+	.PicturePile img#pic11{
+		position:relative;
+		padding:2px;
+		z-index:5;
+	}
+	.PicturePile img#pic11:hover{
+
+	}
+	
+	.PicturePile img#pic12{
+		position:relative;
+		padding:2px;
+		z-index:1;
+	}
+	.PicturePile img#pic12:hover{
+	}
+	
+/*End Picture pile Formatting------------------------------------*/
+/*include2--------------------------------------------------*/
+
+#Contact-and-Pricing{
+	position:relative;
+	border: solid 1px rgba(100,100,100,1);
+	border-top-color:rgba(100,100,100,1);
+	width: 800px;
+	height:550px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:scroll;
+	overflow-x:hidden;
+}
+
+#Contact-and-Pricing h1{
+	color:#FED05E;
+	text-decoration:underline;
+	size:10px;
+}
+
+#Contact-and-Pricing h2{
+	color:#1565B2;
+	text-decoration:underline;
+	size:10px;
+}
+
+#Contact-and-Pricing h3{
+	color:#FFB6C1;
+	text-decoration:underline;
+	size:10px;
+}
+
+#Contact-and-Pricing p{
+	font-family:"Helvetica Cyrillic";
+	font-style:italic;
+	color:grey;
+}
+

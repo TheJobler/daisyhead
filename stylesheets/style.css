@@ -1,0 +1,559 @@
+
+/*Universal formatting-------------------------------------------*/
+html{
+	padding:none;
+	/*margin-left:25%;*/
+	/*margin-right:25%;*/
+	height:100%;
+	background:
+		/*#0A090D */
+		/*url(../resources-alt/bkg.jpg)*/
+		Black
+		/*no-repeat*/;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+body{
+	height:100%;
+}
+
+a:link{
+	text-decoration:none;
+}
+
+a img{
+	border:none;
+	/*remove blue box on links in internet explorer*/
+}
+
+/*End Universal formatting---------------------------------------*/
+/*Container formatting-------------------------------------------*/
+
+#Container{
+	position:relative;
+	width:920px;
+	min-height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:rgba(0,0,0,1.0);
+
+}
+
+#LeftBorder{
+	position:absolute;
+	background: 
+		-webkit-gradient(linear, 0 0, 100% 100%, from(black), to(black), color-stop(50%, DarkOliveGreen));
+	background:
+		-moz-linear-gradient(0deg,black,DarkOliveGreen 50%,black);
+	width:1px;
+	height:600px;
+	top:100px
+}
+
+#RightBorder{
+	position:absolute;
+	background:
+		-webkit-gradient(linear, 0 0, 100% 100%, from(black), to(black), color-stop(50%, DarkOliveGreen));
+	background:
+		-moz-linear-gradient(0deg,rgba(0,0,0,0),DarkOliveGreen 50%,rgba(0,0,0,0));
+	width:1px;
+	height:600px;
+	left:920px;
+	top:100px;
+}
+/*End Container formatting---------------------------------------*/
+/*Banner formatting----------------------------------------------*/
+
+#Banner{
+	z-index:500;
+	position:relative;
+	width:100%;
+	height:145px;
+	border-bottom:1px;
+	text-align:center;
+}
+	#DaisyHead{
+		position:relative;
+		display:block;		
+	}
+/*End Banner formatting------------------------------------------*/
+/*NavBar formatting----------------------------------------------*/
+
+#NavBar{
+	position:absolute;
+	top: 750px;
+	width:100%;
+	height:60px;
+	background-color:NULL;
+	text-align:center;
+}
+
+	#HOME{
+		/*margin-right:auto;*/
+		left:130px;
+		position:absolute;
+		width:80px;
+		height:60px;
+		/**/
+		z-index:550;
+	}
+	/*these Hovers are for browsers with javascript turned off*/
+
+
+	#PORTFOLIO{
+		/*margin-right:auto;*/
+		left:260px;
+		position:absolute;
+		width:80px;
+		height:60px;
+		/**/
+		z-index:550;
+	}
+	
+	#PRICING{
+		/*margin-right:auto;*/
+		left:420px;
+		position:absolute;
+		width:80px;
+		height:60px;
+		/**/
+		z-index:550;
+	}
+
+	
+	#CONTACT{
+		/*margin-right:auto;*/
+		left:560px;
+		position:absolute;
+		width:80px;
+		height:60px;
+		/**/
+
+		z-index:550;
+	}
+
+	
+	#ABOUT{
+		/*margin-right:auto;*/
+		left:710px;
+		position:absolute;
+		width:80px;
+		height:60px;
+		/**/
+		z-index:550;
+	}
+
+	
+/*End of NavBar formatting---------------------------------------*/
+
+
+#Social-Icons{
+	position:absolute;
+	top:820px;
+	left:-20px;
+	width:960px;
+	text-align:center;
+}
+
+#Social-Icons img{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+
+/*Foolter formatting---------------------------------------------*/
+
+#Footer{
+	background-color:rgba(0,0,0,1.0);
+	width:920px;
+	height:75px;
+	height:auto;
+	position:absolute;
+	top:850px;
+	/*border-style:groove outset;*/
+	/*border-color:#white;*/
+}
+
+#Footer p{
+	font-family:helvetica;
+	text-align:center;
+	color:gray;
+	size:.75%;
+}
+
+/*End of footer formatting---------------------------------------*/
+
+/*Start of include Formattings------------------------------------*/
+#pictures{
+	overflow:hidden;
+}
+
+	#section-1, #section-2, #section-3,#section-4, #section-5, #section-6,
+	#section-7, #section-8, #section-9,#section-10,#section-11,#section-12{
+		position:absolute;
+		overflow:hidden;
+		display:none;
+	}
+	#section-1{
+		height:160px;
+		width:106px;
+		top:3.75%;
+		left:6.25%;
+	}
+	#section-2{
+		height:106px;
+		width:160px;
+		left:20.75%;
+		top:27%;
+	}
+	#section-3{
+		height:160px;
+		width:106px;
+		top:15%;
+		left:42.5%;
+	}
+	#section-4{
+		height:106px;
+		width:160px;
+		top:0%;
+		left:57%;
+	}
+	#section-5{
+		height:160px;
+		width:106px;
+		top:8.75%;
+		left:78.75%;
+	}
+	#section-6{
+		height:106px;
+		width:160px;
+		top:40%;
+		left:-1%;
+	}
+	#section-7{
+		height:106px;
+		width:160px;
+		top:51.25%;
+		left:20.75%;
+	}
+	#section-8{
+		height:160px;
+		width:106px;
+		top:51.25%;
+		left:42.5%;
+	}
+	#section-9{
+		height:160px;
+		width:106px;
+		top:24.25%;
+		left:57%;
+	}
+	#section-10{
+		height:106px;
+		width:160px;
+		top:45%;
+		left:71.75%;
+	}
+	#section-11{
+		height:106px;
+		width:160px;
+		top:69.5%;
+		left:85%;
+	}
+	#section-12{
+		height:106px;
+		width:160px;
+		top:45%;
+		left:93.5%;
+	}
+	
+.square{
+	width:40px;
+	height:40px;
+	position:absolute;
+}
+
+.square:hover{
+}
+	#s1{
+		left:0.5%;
+		top:30.5%;
+	}
+	#s2{
+		top:33%;
+		left:71.75%;
+		width:50px;
+		height:50px;
+	}
+	#s3{
+		top:17.5%;
+		left:20.75%;
+	}
+	#s4{
+		top:60.5%;
+		left:57%;
+	}
+	#s5{
+		top:35.5%;
+		left:93.5%;
+	}
+	#s6{
+		bottom:67%;
+		left:71.7%;
+		width:50px;
+		height:38px;
+	}
+/*End Picture Formatting------------------------------------*/
+/*Picture pile Formatting----------------------------------------*/
+
+.PicturePile{
+	position:relative;
+	padding:25px;
+	left:-50px;
+	margin-top:25px;
+	margin-right:auto;
+	margin-left:auto;
+	height:400px;
+	width:700px;
+}
+
+	.PicturePile img#pic1{
+		position:relative;
+		padding:2px;
+		z-index:0;
+		
+	}
+	.PicturePile img#pic1:hover{
+	}
+	
+	.PicturePile img#pic2{
+		position:relative;
+		padding:2px;
+		z-index:6;
+	}
+	.PicturePile img#pic2:hover{
+	}
+	
+	.PicturePile img#pic3{
+		position:relative;
+		padding:2px;
+		z-index:3;
+	}
+	.PicturePile img#pic3:hover{
+	}
+	
+	.PicturePile img#pic4{
+		position:relative;
+		padding:2px;
+		z-index:9;
+	}
+	.PicturePile img#pic4:hover{
+	}
+	
+	.PicturePile img#pic5{
+		position:relative;
+		padding:2px;
+		z-index:7;
+	}
+	.PicturePile img#pic5:hover{
+	}
+	
+	.PicturePile img#pic6{
+		position:relative;
+		padding:2px;
+		z-index:4;
+	}
+	.PicturePile img#pic6:hover{
+	}
+
+	.PicturePile img#pic7{
+		position:relative;
+		padding:2px;
+		z-index:2;
+	}
+	.PicturePile img#pic7:hover{
+	}
+	
+	.PicturePile img#pic8{
+		position:relative;
+		padding:2px;
+		z-index:1;
+	}
+	.PicturePile img#pic8:hover{
+	}
+	
+	.PicturePile img#pic9{
+		position:relative;
+		padding:2px;
+		z-index:12;
+	}
+	.PicturePile img#pic9:hover{
+	}
+	
+	.PicturePile img#pic10{
+		position:relative;
+		padding:2px;
+		z-index:8;
+	}
+	.PicturePile img#pic10:hover{
+	}
+	
+	.PicturePile img#pic11{
+		position:relative;
+		padding:2px;
+		z-index:5;
+	}
+	.PicturePile img#pic11:hover{
+
+	}
+	
+	.PicturePile img#pic12{
+		position:relative;
+		padding:2px;
+		z-index:1;
+	}
+	.PicturePile img#pic12:hover{
+	}
+	
+/*End Picture pile Formatting------------------------------------*/
+/*include2--------------------------------------------------*/
+
+#Contact-and-Pricing{
+	position:relative;
+	border: solid 1px rgba(100,100,100,1);
+	border-top-color:rgba(100,100,100,1);
+	width: 800px;
+	height:550px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:scroll;
+	overflow-x:hidden;
+	text-align:center;
+}
+
+#Contact-and-Pricing h1{
+	color:#FED05E;
+	text-decoration:underline;
+	size:10px;
+}
+
+#Contact-and-Pricing h2{
+	color:#1565B2;
+	text-decoration:underline;
+	size:10px;
+}
+
+#Contact-and-Pricing h3{
+	color:#FFB6C1;
+	text-decoration:underline;
+	size:10px;
+}
+
+#Contact-and-Pricing p{
+	font-family:"Helvetica Cyrillic";
+	font-style:italic;
+	color:grey;
+}
+
+label {
+    display:block;
+    margin-top:50px;
+    letter-spacing:1px;
+	color:grey;
+}
+
+
+form {
+    margin:0 auto;
+    width:420px;
+}
+
+
+input, textarea {
+	width:400px;
+	height:27px;
+	background:#222222;
+	border:2px solid #666666;
+	padding:10px;
+	margin-top:10px;
+	font-size:0.7em;
+	color:#555555;
+}
+
+textarea {
+	height:200px;
+	font-family:Arial;
+}
+
+#submit {
+	color:grey;
+	font-family: "Comic sans",Helvetica;
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+	border: 3px ridge grey;
+}
+
+
+#AboutText{
+	text-align:center;
+	padding:5%;
+}
+
+
+#AboutText p{
+	color:white;
+}
+
+#errors{
+	margin-left:auto;
+	margin-right:auto;
+	border:solid 1px red;
+	width:400px;
+}
+
+#errors p{
+	color:red;
+}
+
+#errors h4{
+	text-decoration:underline;
+	color:red;
+}
+
+#success{
+	margin-left:auto;
+	margin-right:auto;
+	border:solid 1px #050AAA;
+	width:400px;
+}
+
+#success p{
+	color:#050AAA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

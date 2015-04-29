@@ -1,0 +1,36 @@
+/*keyframes for slideshow*/
+@keyframes load{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+
+@-o-@keyframes load{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+
+@-moz-@keyframes load{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+
+@-webkit-@keyframes load{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
